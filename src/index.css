@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400&display=swap%27%29%3B);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "sans-serif";
+}
+button {
+  cursor: pointer;
+}
+body {
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  background-color: #132742;
+}
+div {
+  color: aliceblue;
+}
+h1 {
+  color: aliceblue;
+}
+ion-icon {
+  cursor: pointer;
+}

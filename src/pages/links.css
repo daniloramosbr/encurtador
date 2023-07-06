@@ -1,0 +1,77 @@
+.container-links {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-links {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  text-align: center;
+  width: 500px;
+  animation: Slide 1.5s;
+}
+.text {
+  font-weight: bold;
+}
+.input-links {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.input-links input {
+  margin-left: 2px;
+  height: 30px;
+  text-align: center;
+  color: aliceblue;
+  background-color: transparent;
+  border: none;
+  border: 1px solid white;
+  width: 100%;
+  height: 30px;
+}
+.input-icon,
+.input-icon2 {
+  text-align: center;
+  display: flex;
+}
+.input-links ion-icon {
+  font-size: 30px;
+}
+.arrow {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  padding: 2px;
+  border-radius: 4px;
+}
+.arrow ion-icon {
+  font-size: 20px;
+}
+.menu-arrow {
+  position: absolute;
+  top: 20px;
+  left: 10%;
+}
+@keyframes Slide {
+  from {
+    transform: translateY(130px);
+    opacity: 0%;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 100%;
+  }
+}
+.deleteicon {
+width: 30px;
+}
+.deleteicon ion-icon {
+font-size: 25px;
+}
+.input-icon input {
+cursor: pointer;
+}

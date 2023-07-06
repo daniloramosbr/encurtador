@@ -1,0 +1,15 @@
+.menu {
+  position: absolute;
+  top: 30px;
+  right: 10%;
+}
+.link {
+  text-align: center;
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 3px;
+  font-weight: bold;
+  border-radius: 5px;
+}

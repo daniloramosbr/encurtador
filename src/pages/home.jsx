@@ -2,8 +2,7 @@ import HomeLink from "./homelink";
 import Modal from "./modal";
 import { useState } from "react";
 import api from "./services/api";
-import { SaveLink } from "./home";
-export {SaveLink} from './services/storagelink'
+import {SaveLink} from './services/storagelink'
 
 function Home() {
   const [link, setLink] = useState("");

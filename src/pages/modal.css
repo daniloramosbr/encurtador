@@ -1,72 +1,74 @@
+
 .container-modal {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  bottom: 80px;
-  animation: Slide 1.3s;
+width: 100%;
+display: flex;
+justify-content: center;
+position: absolute;
+bottom: 80px;
+animation: Slide 1.3s;
 }
 .main-modal {
   width: 100%;
   max-width: 400px;
-  background-color: white;
-  border: 1px solid rgb(5, 108, 253);
-  padding: 9px;
-  border-radius: 4px;
+background-color: white;
+border: 1px solid rgb(5, 108, 253);
+padding: 9px;
+border-radius: 4px;
 }
 .header b {
-  letter-spacing: 1px;
-  margin-right: 15rem;
-  color: black;
+letter-spacing: 1px;
+margin-right: 15rem;
+color: black;
 }
 .header input {
-  background-color: #fff;
-  color: #132740;
-  border: none;
-  font-weight: bolder;
-  font-size: 15px;
+background-color: #fff;
+color: #132740;
+border: none;
+font-weight: bolder;
+font-size: 15px;
 }
 .header ion-icon {
-  font-size: 20px;
-  color: black;
+font-size: 20px;
+color: black;
 }
 .url {
-  font-size: 13px;
-  margin-bottom: 5px;
-  color: rgb(101, 101, 101);
+font-size: 13px;
+margin-bottom: 5px;
+color: rgb(101, 101, 101);
 }
 .inputmodal {
-  width: 100%;
-  color: #fff;
-  background-color: #132740;
+width: 100%;
+color: #fff;
+background-color: #132740;
 }
 .inputdiv {
-  display: flex;
-  gap: 6px;
+display: flex;
+gap: 6px;
 }
 .inputdiv button ion-icon {
-  color: #000;
-  font-size: 23px;
+color: #000;
+font-size: 23px;
 }
 .iconn {
-  color: aqua;
+color: aqua;
 }
 .buttmod {
-  width: 30px;
+width: 30px;
 }
 .header {
-  display: flex;
+display: flex;
 }
 .header button {
-  width: 30px;
+width: 30px;
 }
 @keyframes Slide {
-  from {
-    transform: translateY(90px);
-    opacity: 0%;
+    from {
+      transform: translateY(90px);
+      opacity: 0%;
+    }
+    to {
+      transform: translateY(0px);
+      opacity: 100%;
+    }
   }
-  to {
-    transform: translateY(0px);
-    opacity: 100%;
-  }
-}
+  

@@ -2,7 +2,6 @@ import HomeLink from "./homelink";
 import Modal from "./modal";
 import { useState } from "react";
 import api from "./services/api";
-import { SaveLink } from "./services/storagelink";
 
 function Home() {
   const [link, setLink] = useState("");
@@ -17,7 +16,7 @@ function Home() {
       setModal(true);
       setLink("");
       setResApi(res.data);
-      SaveLink("@DanDev", res.data);
+      console.log(res);
     } catch (error) {
       alert("ops parece que algo deu errado");
     }
@@ -46,13 +45,15 @@ function Home() {
         </div>
       </div>
       <HomeLink />
-      {modal && (
+      {modal ? (
         <Modal
+          api={resApi}
           exitModal={() => {
             setModal(false);
           }}
-          api={resApi}
         />
+      ) : (
+        ""
       )}
     </div>
   );

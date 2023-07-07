@@ -11,7 +11,7 @@ function Modal({ exitModal, api }) {
     <div className="container-modal">
       <div className="main-modal">
         <div className="header">
-          <input type="text" value="LINK ENCURTADO:" className="inputmodal" />
+         <input type="text" value="LINK ENCURTADO:" className="inputmodal" />
           <button onClick={exitModal} type="button">
             <ion-icon name="close-outline"></ion-icon>
           </button>

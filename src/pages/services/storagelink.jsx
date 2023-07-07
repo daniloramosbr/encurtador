@@ -33,7 +33,7 @@ return linkSaves                                         //retorna o valor que e
 //deletar um link no storage
 export function DeleteLink(links, id) {
 const MyLinks = links.filter( item => {
-   return (item.id != id)                //retorna todos menos o id que mandou
+   return (item.id != id)               //retorna todos menos o id que mandou
 })
 
 localStorage.setItem('@DanDev', JSON.stringify(MyLinks))   //atualiza com o id removido

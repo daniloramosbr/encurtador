@@ -52,7 +52,7 @@ function Links() {
                 type="text"
               />
               <button
-                onClick={() => Delete(link.iNd)}
+                onClick={() => Delete(link.id)}
                 className="deleteicon"
                 type="button"
               >

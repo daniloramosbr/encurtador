@@ -27,7 +27,7 @@ function Home() {
     <div className="container-home">
       <div className="main">
         <div className="logo">
-          <img src="src/assets/logoofc.svg" alt="logo" />
+          <img src="/logoofc.svg" alt="logoofc" />
           <h1>DanLinks</h1>
           <span>Cole seu link para encurtar</span>
         </div>

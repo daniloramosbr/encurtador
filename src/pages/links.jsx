@@ -56,7 +56,7 @@ function Links() {
                 className="deleteicon"
                 type="button"
               >
-                {" "}
+              
                 <ion-icon name="trash-outline" className="icon"></ion-icon>
               </button>
             </div>

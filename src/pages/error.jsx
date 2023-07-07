@@ -5,7 +5,7 @@ export default function Error() {
   return (
     <div className="container-error">
       <div className="main-error">
-        <img src="./public/error.png" className="imgerror" />
+        <img src="./src/assets/error.png" className="imgerror" />
         <ErrorButton />
       </div>
     </div>

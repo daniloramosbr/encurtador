@@ -2,9 +2,9 @@
 import "./links.css";
 import { useState, useEffect } from "react";
 import LinksBack from "./linksback";
-import { GetLink } from "./services/storagelink";
-import Modal from "./modal";
-import { DeleteLink } from "./services/storagelink";
+import { GetLink } from "../services/storagelink";
+import Modal from "../modal/modal";
+import { DeleteLink } from "../services/storagelink";
 
 function Links() {
   const [myLinks, setMyLinks] = useState([]);
@@ -56,7 +56,6 @@ function Links() {
                 className="deleteicon"
                 type="button"
               >
-              
                 <ion-icon name="trash-outline" className="icon"></ion-icon>
               </button>
             </div>

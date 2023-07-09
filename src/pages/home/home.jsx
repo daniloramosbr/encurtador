@@ -1,8 +1,8 @@
 import HomeLink from "./homelink";
-import Modal from "./modal";
+import Modal from "../modal/modal";
 import { useState } from "react";
-import api from "./services/api";
-import {SaveLink} from './services/storagelink'
+import api from "../services/api";
+import { SaveLink } from "../services/storagelink";
 
 function Home() {
   const [link, setLink] = useState("");
@@ -17,9 +17,10 @@ function Home() {
       setModal(true);
       setLink("");
       setResApi(res.data);
-      SaveLink('@DanDev', res.data)
+      SaveLink("@DanDev", res.data);
     } catch (error) {
       alert("ops parece que algo deu errado");
+      console.log(error)
     }
   }
   return (
@@ -42,7 +43,7 @@ function Home() {
               }}
             />
           </div>
-          <button onClick={ButtonEncurt}>GERAR LINK</button>
+          <button onClick={ButtonEncurt}>ENCURTAR LINK</button>
         </div>
       </div>
       <HomeLink />

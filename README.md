@@ -3,7 +3,6 @@ Projeto de um encurtador de links feito para diminuir o tamanho dos links e deix
 
 
 
-
 ## Funcionalidades
 
 - Tema dark

@@ -7,7 +7,7 @@ Projeto de um encurtador de links feito para diminuir o tamanho dos links e deix
 - Responsividade
 - Visual Dinamico
 
-<img src="logo.png" alt="Texto Alternativo">
+<img src="/public/logo.png" alt="Texto Alternativo">
 
 ## Stack utilizada
 

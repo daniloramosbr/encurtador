@@ -1,13 +1,13 @@
 # Encurtador de Links
 Projeto de um encurtador de links feito para diminuir o tamanho dos links e deixar com uma aparência mais bonita.
 
+<img src="/public/url.png" alt="url">
+
 ## Funcionalidades
 
 - Tema dark
 - Responsividade
 - Visual Dinamico
-
-<img src="/public/url.png" alt="url">
 
 ## Stack utilizada
 

@@ -1,8 +1,6 @@
 # Encurtador de Links
 Projeto de um encurtador de links feito para diminuir o tamanho dos links e deixar com uma aparência mais bonita.
 
-
-
 ## Funcionalidades
 
 - Tema dark
